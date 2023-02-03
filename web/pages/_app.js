@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
             className = {styles.walletButton}
             onClick = {connectWallet}
             >
-              Conectar Wallet
+              Conectar Wallet Phantom
             </button>
           </div>
         )
