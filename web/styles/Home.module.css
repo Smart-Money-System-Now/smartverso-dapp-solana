@@ -195,3 +195,33 @@
   --tw-text-opacity: 1;
   color: rgba(153, 27, 27, var(--tw-text-opacity));
 }
+
+.spline {
+  position: absolute;
+  margin: 0;
+  top: 120px;
+  right: 0;
+  width: 1200px;
+  height: 1000px;
+
+  @media (max-width: 1024px) {
+    transform: scale(0.8) translateX(200px);
+    transform-origin: top;
+  }
+  @media (max-width: 800px) {
+    transform: scale(0.7) translateX(600px);
+  }
+  @media (max-width: 600px) {
+    transform: scale(0.5) translateX(-100px);
+    right: auto;
+    left: 50%;
+    margin-left: -600px;
+  }
+  @media (max-width: 375px) {
+    transform: scale(0.45) translateX(-50px);
+  }
+  /* display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); */
+}

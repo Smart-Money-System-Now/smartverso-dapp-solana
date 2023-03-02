@@ -69,10 +69,10 @@ function MyApp({ Component, pageProps }) {
               <Link href="/">
                 <a className="mr-4">Inicio</a>
               </Link>
-              <Link href="/add-movie">
+              <Link href="/add-nfts">
                 <a className="mr-6">Agregar NFT</a>
               </Link>
-              <Link href="/my-movies">
+              <Link href="/my-nfts">
                 <a className="mr-6">Mis NFT</a>
               </Link>
             </div>
