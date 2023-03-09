@@ -13,7 +13,7 @@ export default function App() {
         <Spline
           className={styles.spline}
           
-          scene="https://prod.spline.design/CNAUclMqo8UTmSwe/scene.splinecode"
+          scene="https://prod.spline.design/KinqTlbdrfXqxieJ/scene.splinecode"
         />        
     );
   }
